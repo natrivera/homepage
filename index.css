@@ -1,0 +1,251 @@
+body {
+    background-position: center 0;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #FFF;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.hoverable:hover {
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px blue !important;
+}
+
+.chosen {
+    border-bottom: 1px solid white;
+}
+
+.info {
+    min-height: 175px;
+}
+
+.moreweather {
+    color: white;
+    text-shadow: none;
+    margin: 5px 0px -20px 0px;
+    width: 350px;
+    background-color:  rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.units {
+    font-size: .8em;
+}
+
+.border-right {
+    border-right: 1px solid white;
+}
+
+.border-left {
+    border-left: 1px solid white;
+}
+
+.wi {
+    line-height: 2;
+}
+
+.moreweather .wi {
+    font-size: 3em;
+    margin: auto;
+}
+
+.moretemp {
+    font-size: 1.75em;
+}
+
+.morecity {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.minmax {
+    font-size: .8em;
+}
+
+.description {
+    font-size: .8em
+}
+
+.winds {
+    font-size: .8em;
+}
+
+.center {
+    font-size: 1.25em;
+    max-width: 500px;
+    margin: 0px auto 50px;
+}
+
+.welcome {
+    margin: auto;
+    font-size: 3em;
+}
+
+.search {
+    margin: auto;
+    display: inline;
+    border: none;
+}
+
+.search input {
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px #333;
+    border-radius: 5%;
+    color: #FFF;
+    width: 90%;
+    font-size: 1.2em;
+    background-color: transparent;
+    border: none;
+}
+
+.search input: hover {
+    box-shadow: 0px 0px 15px 5px inset;
+}
+
+.search i {
+    float: right;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px #333;
+    color: #FFF;
+    font-size: 2em;
+    border: none; 
+    background-color: transparent;
+}
+
+.linkland {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.linkland p {
+    margin-top: 0px;
+    float: right;
+}
+
+.links {
+    color: white;
+    text-shadow: none;
+    margin: 25px 20px 20px 20px;
+    width: 220px;
+    background-color:  rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.links div {
+    margin: 5px;
+    border: none;
+}
+
+.links div span:hover {
+    color: yellow;
+}
+
+.addlink input {
+    background-color: transparent;
+    border: none; 
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.addlink button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.editor {
+    position: absolute;
+    bottom: 0;
+}
+
+.editor button {
+    font-weight: bolder;
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+}
+
+
+.colors {
+    margin-bottom: 20px;
+    display: none;
+    width: 45px;
+    height: 160px;
+}
+
+.choice {
+    margin: 10px auto;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+  background-color: darkblue;  
+}
+
+.yellow {
+    background-color: chartreuse;
+}
+
+.hide {
+    display: none;
+}
+
+.settings {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.settings button {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    float: right;
+    font-size: 2em;
+}
+
+.resetdiv {
+    color: white;
+    text-shadow: none;
+    border-radius: 5%;
+    padding: 10px;
+    width: 200px;
+    background-color:  rgba(0, 0, 0, 0.6);
+    margin: 20px;
+}
+
+.resetdiv i {
+    margin: 20px;
+}
+
+.resetdiv i:hover {
+    border-bottom: 1px solid white;
+}
